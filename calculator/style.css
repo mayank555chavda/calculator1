@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+body{
+    height: 100vh;
+    /* width: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: url('pngtree-vector-school-bag-calculator-cyan-cartoon-banner-image_166801.jpg'); */
+  /* background-repeat: no-repeat;
+  background-size: 100% 100%; */
+} 
+
+ .calculator{
+    padding: 15px;
+    box-shadow: 0 0 15px black;
+    border: 2px solid rgb(116, 114, 114);
+    border-radius: 15px;
+    margin-left: 22%;
+}
+
+input{
+    border: 0;
+    outline: 0;
+    width: 70px;
+    height:60px;
+    border-radius:50%;
+    text-align: center;
+    font-weight: 700;
+    font-size:1.7em;
+    color: white;
+    background-color:black;
+    cursor: pointer;
+    margin: 8px;
+
+}
+input::placeholder {
+    color:black;
+}
+.display input{
+    width: 350px;
+    padding:25px;
+    margin:10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color:black;
+    font-size: 50px;
+    text-align:right;
+    cursor: pointer;
+}
+.input {
+ width: 70px;
+ height: 70px;
+ margin: 10px;
+ background:transparent;
+ color: white;
+ font-size: 22px;
+ font-weight: 600;
+ border: 0;
+ border-radius: 50%;
+ box-shadow: -5px -6px  15px black;
+ outline: 1px solid gray;
+ outline-offset: 3px;
+ cursor: pointer;
+}
+button:active {
+    background-color: black;
+    transform: translate(2px, 2px);
+   }
+   .opr {
+       color: yellow;
+       background-color: black;
+       font-weight:700;
+       font-size:25px;
+   }
+    #eqbt {
+    background-color: orangered;
+    font-weight: 900;
+    }
+
